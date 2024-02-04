@@ -1,0 +1,10 @@
+.content-all{
+    border: 1px solid #333;
+    width: 600px;
+}
+.header-all .header-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid green;
+}
