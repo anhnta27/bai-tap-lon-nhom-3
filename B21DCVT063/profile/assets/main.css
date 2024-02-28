@@ -15,26 +15,32 @@ html {
     padding: 10px;
     box-sizing: border-box;
 }
-img {
-    /* background-image: url();
-    opacity: 0.7;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; */
-    background-attachment: scroll;
-    display: block;
-    border-radius: 10%;
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .block1 {
-    height: 200px;
+    height: 500px;
     margin-top: 35px;
-    font-size: 50px;
+    position: relative;
+}
+.img {
+    background-image: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/426600956_3500821376897776_5983245021921143467_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=uX5KG8i2fmEAX-7XOI9&_nc_ht=scontent.fhan2-3.fna&oh=00_AfAj9h6-pMpQkXx31Y0LrDZAC8F8hQDO6pMZyC70unm6MQ&oe=65E3242E);
+    height: 100%;
+    width: 50%;
+    left: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+.text {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    top: 0;
+    font-size: 80px;
     text-align: center;
+    line-height: 1;
+    padding-left: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 .block2 {
     height: 250px;
@@ -44,29 +50,45 @@ img {
     border-left: 0;
     border-right: 0;
     position: relative;
+    font-size: large;
 }
 .box1 {
     height: 100%;
-    width: 70vw;
+    width: 70%;
     border: solid 2px;
     border-top: 0;
     border-left: 0;
     border-bottom: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.head_item1 {
+    list-style-type: none;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+table {
+    width: 70%;
+    line-height: 30px;
 }
 .box2 {
     height: 100%;
-    width: 30vmax;
+    width: 30%;
     position: absolute;
-    left: 70vmax;
+    left: 70%;
     top: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
-.head_item {
-    color: #DCDCDC;
-    opacity: 0.7;
+.head_item2 {
+    color: #696969;
     list-style-type: none;
     margin-bottom: 10px;
 }
 .item {
     list-style-type: none;
     text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 1.5;
 }
