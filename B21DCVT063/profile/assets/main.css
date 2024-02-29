@@ -14,17 +14,19 @@ html {
     padding-top: 10px;
 }
 .box1_h {
+    width: 30%;
     text-transform: uppercase;
     padding-left: 10px;
 }
 .box2_h {
+    width: 100%;
     position: absolute;
     left: 40%;
     top: 0;
 }
 .item_h {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 .block1 {
     height: 500px;
@@ -47,7 +49,7 @@ html {
     left: 0;
     top: 0;
     text-align: center;
-    line-height: 1;
+    line-height: 1.2;
     padding-left: 30px;
     padding-top: 50px;
     box-sizing: border-box;
@@ -75,7 +77,7 @@ html {
 .head_item1 {
     list-style-type: none;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 table {
     width: 70%;
@@ -87,35 +89,47 @@ table {
     position: absolute;
     left: 70%;
     top: 0;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 20px;
     box-sizing: border-box;
 }
 .head_item2 {
     color: #696969;
     list-style-type: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-size: 25px;
 }
 .item {
+    color: black;
     list-style-type: none;
     text-transform: capitalize;
     text-decoration: underline;
-    line-height: 1.5;
+    line-height: 30px;
+    font-size: 20px;
 }
 .block3 {
     margin-top: 30px;
-    height: 1000px;
+    height: 800px;
     border: solid 2px;
     border-left: 0;
     border-bottom: 0;
     border-right: 0;
+    padding-left: 75px;
 }
 h1 {
     text-align: center;
+    margin-bottom: 40px;
 }
-.box1_3, .box2_3{
+.box1_3 {
+    height: 200px;;
+    margin-bottom: 20px;
+}
+.box2_3{
     height: 300px;
+    margin-bottom: 70px;
 }
+
 p {
     line-height: 1.5;
     font-size: large;
