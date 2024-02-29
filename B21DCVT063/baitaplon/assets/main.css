@@ -6,6 +6,7 @@
 .header_list {
     list-style: none;
     display: flex;
+    /* flex-wrap: wrap; */
 }
 .header_item {
     display: inline-block;

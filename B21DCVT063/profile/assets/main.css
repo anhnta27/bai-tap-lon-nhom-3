@@ -2,7 +2,7 @@ html {
     background-color:#FFFAF0;
 }
 .header {
-    height: 50px;
+    height: 100%;
     font-size: 20px;
     margin-bottom: 20px;
     border-style: solid;
@@ -11,25 +11,24 @@ html {
     border-left: 0;
     border-right: 0;
     box-sizing: border-box;
-    padding-top: 10px;
+    padding-top: 10px 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
 }
-.box1_h {
-    width: 30%;
-    text-transform: uppercase;
-    padding-left: 10px;
-}
-.box2_h {
-    width: 100%;
-    position: absolute;
-    left: 40%;
-    top: 0;
+.h_list {
+    list-style: none;
 }
 .item_h {
-    display: inline-block;
-    margin-left: 60px;
+    display: inline;
+    margin: 0 8px;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 .block1 {
-    height: 500px;
+    height: 80vh;
     margin-top: 35px;
     position: relative;
 }
@@ -55,7 +54,7 @@ html {
     box-sizing: border-box;
 }
 .block2 {
-    height: 250px;
+    height: 100%;
     margin-top: 1%;
     border: solid 2px;
     border-bottom: 0;
@@ -94,11 +93,15 @@ table {
     box-sizing: border-box;
 }
 .head_item2 {
-    color: #696969;
+    color: black;
     list-style-type: none;
     margin-bottom: 20px;
     margin-top: 35px;
-    font-size: 25px;
+    font-size: 35px;
+    height: 100%;
+}
+a:hover {
+    color: red;
 }
 .item {
     color: black;
@@ -110,7 +113,7 @@ table {
 }
 .block3 {
     margin-top: 30px;
-    height: 800px;
+    height: 100%;
     border: solid 2px;
     border-left: 0;
     border-bottom: 0;
@@ -122,15 +125,31 @@ h1 {
     margin-bottom: 40px;
 }
 .box1_3 {
-    height: 200px;;
+    height: 100%;;
     margin-bottom: 20px;
 }
 .box2_3{
-    height: 300px;
-    margin-bottom: 70px;
+    height: 100%;
+    margin-bottom: 30px;
 }
-
+.box3_3 {
+    height: 100%;
+}
 p {
     line-height: 1.5;
     font-size: large;
+}
+.block4 {
+    height: 100%;
+    margin-top: 30px;
+    border: solid 2px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: large;
+}
+.block4_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
