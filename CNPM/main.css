@@ -1,10 +1,18 @@
-.content-all{
-    border: 1px solid #333;
-    width: 600px;
+.header-all{
+    display: flex;
 }
 .header-all .header-img img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     border: 3px solid green;
+}
+.dong1{
+    font-size: 16px;
+    font-weight: 550;
+}
+.dong1.1{
+}
+.header-text-right{
+    padding: 30px 0 0 50px;
 }
