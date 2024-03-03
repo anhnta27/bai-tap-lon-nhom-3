@@ -65,7 +65,7 @@ a {
 }
 .box1 {
     height: 100%;
-    width: 70%;
+    width: 70vw;
     border: solid 2px;
     border-top: 0;
     border-left: 0;
@@ -79,12 +79,12 @@ a {
     margin-bottom: 30px;
 }
 table {
-    width: 70%;
+    width: 50%;
     line-height: 30px;
 }
 .box2 {
     height: 100%;
-    width: 30%;
+    width: 30vw;
     position: absolute;
     left: 70%;
     top: 0;
