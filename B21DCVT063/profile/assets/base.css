@@ -6,7 +6,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 }
-  .grid {
+  /* .grid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
@@ -17,4 +17,4 @@ html {
   .grid_row {
     display: flex;
     flex-wrap: wrap;
-  }
+  } */

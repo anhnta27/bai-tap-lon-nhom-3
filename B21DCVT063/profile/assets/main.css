@@ -28,31 +28,35 @@ a {
     color: black;
 }
 .block1 {
-    height: 80vh;
+    height: 700px;
     margin-top: 35px;
-    position: relative;
-}
-.img {
-    background-image: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/426600956_3500821376897776_5983245021921143467_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=uX5KG8i2fmEAX-7XOI9&_nc_ht=scontent.fhan2-3.fna&oh=00_AfAj9h6-pMpQkXx31Y0LrDZAC8F8hQDO6pMZyC70unm6MQ&oe=65E3242E);
-    height: 100%;
-    width: 50%;
-    left: 50%;
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: cover;
+    /* position: relative; */
+    display: flex;
+    flex-direction: row-reverse;
 }
 .text {
-    position: absolute;
-    height: 100%;
+    /* position: absolute; */
+    /* height: 100%;
     width: 50%;
     left: 0;
-    top: 0;
+    top: 0; */
+    width: 50%;
     text-align: center;
     line-height: 1.2;
     padding-left: 30px;
-    padding-top: 50px;
+    padding-top: 100px;
     box-sizing: border-box;
 }
+.img {
+    background-image: url(/B21DCVT063/profile/image/anh\ cua\ the\ anh.jpg);
+    /* height: 100%;
+    left: 50%; */
+    width: 50%;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-size: cover;
+}
+
 .block2 {
     height: 100%;
     margin-top: 1%;
