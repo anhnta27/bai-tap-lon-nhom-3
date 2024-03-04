@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MINH QUANG INTRODUCTION</title>
+</head>
+<body>
+    <ul class="intro-list">
+        <li>
+            <h1>Phạm Nguyễn Minh Quang</h1>
+            <p>03/10/2003</p>
+            <p>B21DCVT366</p>
+        </li>
+
+        <li>
+            <p>Sở Thích Cá Nhân</p>
+            <ul>
+                <li>Đá bóng</li>
+                <li>Tâm lý học</li>
+                <li>Những gì đó yên bình</li>
+            </ul>
+        </li>
+
+        <li>
+            <p>Thành tựu bản thân</p>
+            <ul>
+                <li>THPT PHAN ĐÌNH PHÙNG-HÀ NỘI</li>
+                <li>970 Toeic</li>
+                <li>PTIT - KHOA ĐIỆN TỬ VIỄN THÔNG</li>
+            </ul>
+        </li>
+
+        <li>
+            <p>Trải nghiệm bản thân <br/>
+                Đây là 1 quãng thời gian mình không có động lực và rất lười biếng <br/>
+                Lý do chính là do mình lười và ngoài ra đây không phải ngành học mình yêu thích,<br/> 
+                Thêm một vài vấn đề về tâm lý <br/>
+                Mong thơi gian trôi qua mình sẽ dần có lại động lực trong cuộc sống 
+            </p>
+        </li>
+    </ul>
+</body>
+</html>
