@@ -1,0 +1,160 @@
+html {
+    background-color:#FFFAF0;
+}
+.header {
+    height: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+    padding-top: 10px 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+.h_list {
+    list-style: none;
+}
+.item_h {
+    display: inline;
+    margin: 0 8px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.block1 {
+    height: 700px;
+    margin-top: 35px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+.text {
+    /* position: absolute; */
+    /* height: 100%;
+    width: 50%;
+    left: 0;
+    top: 0; */
+    width: 50%;
+    text-align: center;
+    line-height: 1.2;
+    padding-left: 30px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.img {
+    background-image: url(https://anhnta27.github.io/bai-tap-lon-nhom-3/B21DCVT063/profile/image/anh%20cua%20the%20anh.jpg);
+    /* height: 100%
+    left: 50%; */
+    width: 50%;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-size: contain;
+}
+
+.block2 {
+    height: 100%;
+    margin-top: 1%;
+    border: solid 2px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+    font-size: large;
+}
+.box1 {
+    height: 100%;
+    width: 70vw;
+    border: solid 2px;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.head_item1 {
+    list-style-type: none;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+table {
+    width: 50%;
+    line-height: 30px;
+}
+.box2 {
+    height: 100%;
+    width: 30vw;
+    position: absolute;
+    left: 70%;
+    top: 0;
+    padding-left: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.head_item2 {
+    color: black;
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    font-size: 35px;
+    height: 100%;
+}
+a:hover {
+    color: red;
+}
+.item {
+    color: black;
+    list-style-type: none;
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 30px;
+    font-size: 20px;
+}
+.block3 {
+    margin-top: 30px;
+    height: 100%;
+    border: solid 2px;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    padding-left: 75px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.box1_3 {
+    height: 100%;;
+    margin-bottom: 20px;
+}
+.box2_3{
+    height: 100%;
+    margin-bottom: 30px;
+}
+.box3_3 {
+    height: 100%;
+}
+p {
+    line-height: 1.5;
+    font-size: large;
+}
+.block4 {
+    height: 100%;
+    margin-top: 30px;
+    border: solid 2px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: large;
+}
+.block4_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
