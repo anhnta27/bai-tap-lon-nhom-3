@@ -47,14 +47,15 @@ a {
     padding-top: 100px;
     box-sizing: border-box;
 }
+
 .img {
     background-image: url(https://anhnta27.github.io/bai-tap-lon-nhom-3/B21DCVT063/profile/image/anh%20cua%20the%20anh.jpg);
-    /* height: 100%;
+    /* height: 100%
     left: 50%; */
     width: 50%;
     background-repeat: no-repeat;
     /* position: absolute; */
-    background-size: cover;
+    background-size: contain;
 }
 
 .block2 {
